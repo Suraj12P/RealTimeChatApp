@@ -1,0 +1,78 @@
+# -------------------------
+# Global
+# -------------------------
+*.log
+*.env
+.env.*
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.DS_Store
+
+# -------------------------
+# Python / Django
+# -------------------------
+venv/
+.env
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+media/
+staticfiles/
+
+# VSCode settings
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations (optional, for local dev)
+**/migrations/**/__pycache__/
+**/migrations/**/00*.py
+
+# -------------------------
+# Node / React (Frontend)
+# -------------------------
+node_modules/
+build/
+dist/
+.env.local
+.env.development
+.env.production
+.npm/
+.cache/
+.yarn/
+.vite/
+coverage/
+*.log
+*.lock
+*.tgz
+*.tsbuildinfo
+
+# React dev tools
+*.DS_Store
+*.eslintcache
+
+# Tailwind
+*.css.map
+
+# -------------------------
+# OS / Editor / Misc
+# -------------------------
+Thumbs.db
+ehthumbs.db
+*.bak
+*.swp
+*.swo
+*.swn
+.idea/
+*.iml
+*.orig
